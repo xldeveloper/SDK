@@ -1,6 +1,0 @@
-[submodule "Scripts"]
-	path = Scripts
-	url = https://github.com/xldeveloper/Scripts.git
-[submodule "Samples"]
-	path = Samples
-	url = https://github.com/xldeveloper/Samples.git
