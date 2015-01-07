@@ -10,6 +10,8 @@ if [ ! -d Scripts ]; then
 	&& git submodule init \
 	&& git submodule update;
 
+	# git config -f .gitmodules submodule.Scripts.branch master
+	
 	# add other sub-modules
 	if [ -d Scripts ]; then 
 		./Scripts/git-add-submodule-pairs.sh "https://github.com/xldeveloper/Samples.git" "Samples";
