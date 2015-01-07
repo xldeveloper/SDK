@@ -4,3 +4,4 @@
 [submodule "Samples"]
 	path = Samples
 	url = https://github.com/xldeveloper/Samples.git
+	branch = master
