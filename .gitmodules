@@ -1,8 +1,0 @@
-[submodule "Scripts"]
-	path = Scripts
-	url = https://github.com/xldeveloper/Scripts.git
-	branch = master
-[submodule "Samples"]
-	path = Samples
-	url = https://github.com/xldeveloper/Samples.git
-	branch = master
