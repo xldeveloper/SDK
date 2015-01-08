@@ -19,10 +19,10 @@ if [ ! -d Scripts ]; then
 	fi;
 fi;
 #check if '.gitmodules' file exist (!0)
-gitmodulesfile=$(ls -a '.gitmodules' 2>/dev/null | sed -e "/\.$/d" | wc -l);
-if [ ! $gitmodulesfile -eq 0 ]; then
-	echo "Initializing & updating sub-modules";
-	git submodule init \
-	&& git submodule update --init --recursive \
-	&& git submodule update --remote --rebase --recursive; 
-fi;
+#gitmodulesfile=$(ls -a '.gitmodules' 2>/dev/null | sed -e "/\.$/d" | wc -l);
+#if [ ! $gitmodulesfile -eq 0 ]; then
+#	echo "Initializing & updating sub-modules";
+#	git submodule init \
+#	&& git submodule update --init --recursive \
+#	&& git submodule update --remote --rebase --recursive; 
+#fi;
