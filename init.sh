@@ -22,7 +22,7 @@ gitmodulesfile=$(ls -a '.gitmodules' 2>/dev/null | sed -e "/\.$/d" | wc -l);
 if [ ! $gitmodulesfile -eq 0 ]; then
 	echo "Initializing & updating sub-modules";
 	git submodule update --init --recursive \
-	git submodule foreach git checkout master
+	git submodule foreach git checkout master -- recursive
 	#\
 	#&& git submodule update --recursive; 
 fi;
